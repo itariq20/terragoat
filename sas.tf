@@ -27,6 +27,10 @@ resource "aws_route53_zone" "this" {
   lifecycle {
     ignore_changes = [vpc]
   }
+  tags = {
+    yor_name  = "this"
+    yor_trace = "f23515c6-809c-46e7-a74f-4730abd9753a"
+  }
 }
 
 resource "aws_route53_zone_association" "secondary" {
