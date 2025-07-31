@@ -17,6 +17,7 @@ resource "aws_neptune_cluster" "default" {
     git_repo             = "terragoat"
     yor_trace            = "0d4cbb85-73ed-4ca0-b1da-296e4185f34e"
     yor_name             = "default"
+    manny                = "cepeda"
   }
 }
 
@@ -33,10 +34,11 @@ resource "aws_neptune_cluster_instance" "default" {
     git_last_modified_at = "2021-05-02 10:06:10"
     git_last_modified_by = "nimrodkor@users.noreply.github.com"
     git_modifiers        = "matt/nimrodkor"
-    git_org              = "bridgecrewio"
+    git_org              = "itariq20"
     git_repo             = "terragoat"
     yor_trace            = "9b2b45fd-6f9f-44fd-b8bc-868b1db178b3"
     yor_name             = "default"
+    manny                = "cepeda"
   }
 }
 
