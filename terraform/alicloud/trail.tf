@@ -42,4 +42,15 @@ resource "alicloud_ram_role" "trail" {
   }
   EOF
   force    = true
+  tags = {
+    git_commit           = "c2ff052009d49c65e6af551eb1506abc73b5976c"
+    git_file             = "terraform/alicloud/trail.tf"
+    git_last_modified_at = "2022-04-05 15:14:28"
+    git_last_modified_by = "james.woolfenden@gmail.com"
+    git_modifiers        = "james.woolfenden"
+    git_org              = "itariq20"
+    git_repo             = "terragoat"
+    yor_name             = "trail"
+    yor_trace            = "1be1049a-2354-4cac-9b0c-9f1ed5d552a6"
+  }
 }
