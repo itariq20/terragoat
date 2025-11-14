@@ -59,6 +59,7 @@ resource "azurerm_storage_account" "example" {
     yor_trace            = "23861ff4-c42d-495e-80ac-776c74035f43"
     yor_name             = "example"
   }
+  allow_nested_items_to_be_public = true
 }
 
 resource "azurerm_storage_account_network_rules" "test" {
